@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    width: 1440px;
+    padding: 90px;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    justify-content: center;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-card {
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    padding: 0px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.main-image {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+.main-image img {
+    border-radius: 20px 0px 0px 20px;
+    height: 55vh;
+    padding: 0px 15px 0px 0px;
+    flex-direction: row;
+}
+
+.text h1{
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 15px 15px 0px;
+    color: hsl(158, 36%, 37%);
+}
+
+.text h2 {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0px 15px 15px 0px;
+    color: hsl(212, 21%, 14%);
+    color: 'Fraunces', serif;
+}
+
+.text p{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0px 15px 15px 0px;
+    color: hsl(158, 36%, 37%);
+    
+}
+.pricing{
+    color: rgb(25, 124, 25);
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    gap: 15px
+}
+.price {
+    font-size: 30px;
+    font-weight: bold;
+}
+.pricing p{
+    font-size: small;
+    color: rgb(25, 124, 25);
+}
+button {
+    padding: 10px 15px;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    width: 93%;
+    align-items: center;
+}
+
+
+
